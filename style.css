@@ -14,15 +14,18 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
-   min-height: 100vh;
-   width: 100%;
+    background-image: url(./images/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
 }
 
-nav {
+.navbar {
+    padding:0.5rem;
+    background-color: aqua;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
@@ -39,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
@@ -50,80 +53,26 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
 }
-.slider {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.myslider {
-    display: flex;
-    overflow-x: hidden;
-}
-
-.slider-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: #fff;
-    font-size: 24px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
-.prev-btn {
-    left: 0;
-}
-
-.next-btn {
-    right: 0;
-}
-
-/* Section styles */
-section {
-    padding: 40px 0;
-}
-
-.sec-one {
-    background-color: #fff;
+.header-text-inner{
+    margin-left: 50%;
+    margin-top: 13%;
     text-align: center;
 }
-
-.sec-two {
-    background-color: #f9f9f9;
+.header-text-inner .btn{
+    padding: 5px 10px;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 10px;
+    border: none;
 }
 
-.image-container {
+.testimonials{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.individual-image {
-    margin-bottom: 20px;
-}
-
-.individual-image img {
-    border-radius: 5px;
-}
-
-.individual-image p {
-    margin-top: 10px;
-}
-
-/* Grid styles */
-.grid-container2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 0 20px;
-}
-
-.text-div {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
 }
 
 /* Footer styles */
