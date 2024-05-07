@@ -4,72 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SRH Platform</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#learn-more">Learn More</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="contact.html">Contact</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#learn-more">Learn More</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="div-container">
-            <div class="text-div">
-                <h1>Sexual & Reproductive Health Platform</h1>
-                <p>Your trusted resource for SRH education and products</p>
-                <a href="#learn-more" class="cta-button">Learn More</a>
-            </div>
-            <div class="image-div">
-                <img src="./download (4).jpeg" alt="SRH Platform Header Image">
-            </div>    
+        <div class="header-container">
+            <img src="./images/img4.jpg" alt="SRH Platform Header Image" class="img-fluid">
+            <div>
+               
+                <div class="header-text">
+                    <div class="header-text-inner">
+                        <h1>Sexual &amp; Reproductive Health Platform</h1>
+                        <p>Your trusted resource for SRH education and products</p>
+                        <a href="#learn-more" class="btn btn-primary cta-button">Learn More</a>
+                    </div>
+                </div>
+            
+            
+                  
+            
         </div>
-        <h1>Sexual & Reproductive Health Platform</h1>
-        <p>Your trusted resource for SRH education and products</p>
-        <a href="#learn-more" class="cta-button">Learn More</a>
     </header>
 
-    <section id="learn-more">
-        <h2>Explore Our Services</h2>
-        <div class="feature">
-            <img src="education-icon.png" alt="Education Icon">
-            <h3>SRH Education</h3>
-            <p>Access informative articles, videos, and FAQs.</p>
+    <section id="learn-more" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Explore Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 feature">
+                    <img src="education-icon.png" alt="Education Icon" class="img-fluid">
+                    <h3>SRH Education</h3>
+                    <p>Access informative articles, videos, and FAQs.</p>
+                </div>
+                <!-- Add similar sections for consultation and product ordering -->
+            </div>
         </div>
-        <!-- Add similar sections for consultation and product ordering -->
     </section>
 
-    <section id="testimonials">
-        <h2>What Our Users Say</h2>
-        <div class="testimonial">
-            <p>"This platform changed my life! Highly recommended."</p>
-            <span>- Jane Doe</span>
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Users Say</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>"This platform changed my life! Highly recommended."</p>
+                        <span>- Jane Doe</span>
+                    </div>
+                    <div class="testimonial">
+                        <p>"I've never seen such a comprehensive SRH resource before. Amazing!"</p>
+                        <span>- John Smith</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>"The products available on this platform are top-notch. Great quality!"</p>
+                        <span>- Sarah Johnson</span>
+                    </div>
+                    <div class="testimonial">
+                        <p>"The products available on this platform are on another level. Great quality!"</p>
+                        <span>- Margret Wambui</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="testimonial">
-            <p>"I've never seen such a comprehensive SRH resource before. Amazing!"</p>
-            <span>- John Smith</span>
-        </div>
-        <div class="testimonial">
-            <p>"The products available on this platform are top-notch. Great quality!"</p>
-            <span>- Sarah Johnson</span>
-        </div>
-        <div class="testimonial">
-            <p>"The products available on this platform are on another level. Great quality!"</p>
-            <span>- margret Wambui</span>
-        </div>
-    
-        <!-- Add more testimonials -->
     </section>
 
-    <footer>
-        <p>Contact us: info@srhplatform.com</p>
-        <ul>
-            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="terms-of-use.html">Terms of Use</a></li>
-        </ul>
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <p class="text-center mb-0">Contact us: info@srhplatform.com</p>
+            <ul class="list-unstyled d-flex justify-content-center mt-3">
+                <li class="mr-3"><a href="privacy-policy.html" class="text-light">Privacy Policy</a></li>
+                <li><a href="terms-of-use.html" class="text-light">Terms of Use</a></li>
+            </ul>
+        </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
